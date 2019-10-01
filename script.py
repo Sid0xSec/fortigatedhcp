@@ -9,7 +9,7 @@ FWFG1FL01 = {
     "device_type": "fortinet",
 }
 
-net_connect = Netmiko(**FWFG1FL01)
+net_connect = Netmiko(**)
 
 mac = input ("Please Enter the Mac-Address?\n")
 desc = input ("Please enter comment\n")
